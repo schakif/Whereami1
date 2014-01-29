@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6023371899901600EAEADF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6023361899901600EAEADF /* MapKit.framework */; };
 		BFB94ABC1896F6DB0034CB1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB94ABB1896F6DB0034CB1D /* UIKit.framework */; };
 		BFB94ABE1896F6DB0034CB1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB94ABD1896F6DB0034CB1D /* Foundation.framework */; };
 		BFB94AC01896F6DB0034CB1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB94ABF1896F6DB0034CB1D /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 		BFB94AE21896F6DB0034CB1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB94ABD1896F6DB0034CB1D /* Foundation.framework */; };
 		BFB94AEA1896F6DB0034CB1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB94AE81896F6DB0034CB1D /* InfoPlist.strings */; };
 		BFB94AED1896F6DB0034CB1D /* WhereAmITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB94AEC1896F6DB0034CB1D /* WhereAmITests.m */; };
+		BFB94AF71896F7790034CB1D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB94AF61896F7790034CB1D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF6023361899901600EAEADF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BFB94AB81896F6DB0034CB1D /* WhereAmI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB94ABB1896F6DB0034CB1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFB94ABD1896F6DB0034CB1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +61,7 @@
 		BFB94AE91896F6DB0034CB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB94AEB1896F6DB0034CB1D /* WhereAmITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereAmITests.h; sourceTree = "<group>"; };
 		BFB94AEC1896F6DB0034CB1D /* WhereAmITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmITests.m; sourceTree = "<group>"; };
+		BFB94AF61896F7790034CB1D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6023371899901600EAEADF /* MapKit.framework in Frameworks */,
+				BFB94AF71896F7790034CB1D /* CoreLocation.framework in Frameworks */,
 				BFB94ABC1896F6DB0034CB1D /* UIKit.framework in Frameworks */,
 				BFB94ABE1896F6DB0034CB1D /* Foundation.framework in Frameworks */,
 				BFB94AC01896F6DB0034CB1D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +93,8 @@
 		BFB94AAF1896F6DB0034CB1D = {
 			isa = PBXGroup;
 			children = (
+				BF6023361899901600EAEADF /* MapKit.framework */,
+				BFB94AF61896F7790034CB1D /* CoreLocation.framework */,
 				BFB94AC11896F6DB0034CB1D /* WhereAmI */,
 				BFB94AE51896F6DB0034CB1D /* WhereAmITests */,
 				BFB94ABA1896F6DB0034CB1D /* Frameworks */,
@@ -454,6 +462,7 @@
 				BFB94AF21896F6DB0034CB1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB94AF31896F6DB0034CB1D /* Build configuration list for PBXNativeTarget "WhereAmITests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				BFB94AF51896F6DB0034CB1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
